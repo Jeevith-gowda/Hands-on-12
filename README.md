@@ -282,43 +282,43 @@ ORDER BY rating DESC
 ## 📸 Screenshots
 
 ### 1. S3 Buckets Configuration
-![S3 Buckets](screenshots/s3-buckets.png)
+![S3 Buckets](screenshots/s3-buckets.jpg)
 *Caption: Landing and processed buckets in us-east-2*
 
 ### 2. IAM Roles
-![IAM Roles](screenshots/iam-roles.png)
+![IAM Roles](screenshots/iam-roles.jpg)
 *Caption: GlueETLRole-Reviews with attached policies*
 
 ### 3. Glue ETL Job Configuration
-![Glue Job Details](screenshots/glue-job-config.png)
+![Glue Job Details](screenshots/glue-job-config.jpg)
 *Caption: Glue job configured with Spark engine and 2 workers*
 
 ### 4. Glue Job Script
-![Glue Script](screenshots/glue-script.png)
+![Glue Script](screenshots/glue-script.jpg)
 *Caption: PySpark ETL script with 4 analytics queries*
 
 ### 5. Glue Job Successful Run
-![Glue Success](screenshots/glue-job-success.png)
+![Glue Success](screenshots/glue-job-success.jpg)
 *Caption: Job completed successfully with processed data*
 
 ### 6. Lambda Function Configuration
-![Lambda Config](screenshots/lambda-config.png)
+![Lambda Config](screenshots/lambda-config.jpg)
 *Caption: Lambda function with Python 3.12 runtime*
 
 ### 7. Lambda S3 Trigger
-![Lambda Trigger](screenshots/lambda-trigger.png)
+![Lambda Trigger](screenshots/lambda-trigger.jpg)
 *Caption: S3 trigger configured for CSV file uploads*
 
 ### 8. Lambda CloudWatch Logs
-![Lambda Logs](screenshots/lambda-logs.png)
+![Lambda Logs](screenshots/lambda-logs.jpg)
 *Caption: Successful Lambda execution showing Glue job trigger*
 
 ### 9. S3 Output Structure
-![S3 Output](screenshots/s3-output-structure.png)
+![S3 Output](screenshots/s3-output-structure.jpg)
 *Caption: Processed data and analytics folders in output bucket*
 
 ### 10. Analytics Output Sample
-![Analytics Data](screenshots/analytics-sample.png)
+![Analytics Data](screenshots/analytics-sample.jpg)
 *Caption: Sample analytics CSV showing product ratings*
 
 ---
